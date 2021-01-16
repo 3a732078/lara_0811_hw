@@ -47,6 +47,11 @@
                     </svg>
                 </div>
 
+                <input type="button" class="button" value="關於本站"  onclick="location.href='{{ URL::route('about.index')}}'">
+
+                <input type="button" class="button" value="最新消息"  onclick="location.href='{{ URL::route('news.index')}}'">
+
+
 
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
